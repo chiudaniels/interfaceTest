@@ -16,6 +16,6 @@ public class Circle extends Shape implements Area{
     }
 
     public String toString(){
-	return "Name: "+ getName() +" Radius: "+radius;
+	return "Circle Name: "+ getName() +" Radius: "+radius;
     }
 }

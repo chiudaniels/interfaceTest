@@ -9,6 +9,6 @@ public class Sphere extends Circle implements Volume{
     }
 
     public String toString(){
-	return "Name: "+getName()+" Radius: "+getRadius();
+	return "Sphere Name: "+getName()+" Radius: "+getRadius();
     }
 }
