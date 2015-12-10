@@ -1,4 +1,4 @@
-public class Rectangle extends Shape implements getArea{
+public class Rectangle extends Shape implements Area{
 
     private double length,width;
 
@@ -21,6 +21,6 @@ public class Rectangle extends Shape implements getArea{
     }
     
     public String toString(){
-	return "Name: " +name+ " Length: "+length+ " Width: "+width;
+	return "Name: " +getName()+ " Length: "+length+ " Width: "+width;
     }
 }

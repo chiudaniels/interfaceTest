@@ -1,3 +1,3 @@
-public interface getArea{
+public interface Area{
     public double getArea();
 }
